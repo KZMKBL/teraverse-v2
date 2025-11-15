@@ -4,12 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "npm run build:deps && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
-    "build:deps": "npm run build --prefix ./node_modules/gigaverse-sdk && npm run build --prefix ./node_modules/gigaverse-engine",
-    "postinstall": "npm install --prefix ./node_modules/gigaverse-sdk && npm install --prefix ./node_modules/gigaverse-engine"
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\""
   },
   "author": "KZMKBL",
   "license": "MIT",
