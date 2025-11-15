@@ -10,7 +10,7 @@ import type {
   CheckpointEntity,
   OffchainConstants,
   TodayDungeonDataEntity,
-} from '@slkzgm/gigaverse-sdk'
+} from 'gigaverse-sdk'
 
 function buildItemMap(items: OffchainGameItemEntity[]): Record<number, OffchainGameItemEntity> {
   const map: Record<number, OffchainGameItemEntity> = {}
