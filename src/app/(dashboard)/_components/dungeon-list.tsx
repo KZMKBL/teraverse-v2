@@ -2,7 +2,7 @@
 'use client'
 
 import { Button } from '@/components/ui/button'
-import type { TodayDungeonDataEntity } from '@slkzgm/gigaverse-sdk'
+import type { TodayDungeonDataEntity } from 'gigaverse-sdk'
 import { Flame, Zap } from 'lucide-react'
 
 interface DungeonListProps {
