@@ -9,11 +9,11 @@
     "lint": "next lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\""
   },
-  "author": "slkzgm",
+  "author": "KZMKBL",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/slkzgm/teraverse"
+    "url": "https://github.com/KZMKBL/teraverse"
   },
   "dependencies": {
     "@abstract-foundation/agw-client": "^1.6.2",
