@@ -2,7 +2,7 @@
 'use client'
 
 import { useGameDataStore } from '@/store/useGameDataStore'
-import type { GameItemBalanceChange, DungeonData } from '@slkzgm/gigaverse-sdk'
+import type { GameItemBalanceChange, DungeonData } from 'gigaverse-sdk'
 import { Award, Package } from 'lucide-react'
 
 interface RunRecapPanelProps {
