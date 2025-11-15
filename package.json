@@ -4,18 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    
-    // 👇 KRİTİK DEĞİŞİKLİK 1: Ana build, önce bağımlılıkları derlemeli
     "build": "npm run build:deps && next build",
-    
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
-
-    // 👇 KRİTİK DEĞİŞİKLİK 2: Alt projeleri derlemek için yeni bir script
     "build:deps": "npm run build --prefix ./node_modules/gigaverse-sdk && npm run build --prefix ./node_modules/gigaverse-engine",
-
-    // 👇 KRİTİK DEĞİŞİKLİK 3: postinstall sadece bağımlılık kurulumunu yapmalı
     "postinstall": "npm install --prefix ./node_modules/gigaverse-sdk && npm install --prefix ./node_modules/gigaverse-engine"
   },
   "author": "KZMKBL",
