@@ -15,9 +15,9 @@ import {
   DPAlgorithm,
   GreedyAlgorithm,
   GigaverseActionType,
-} from '@slkzgm/gigaverse-engine'
+} from 'gigaverse-engine'
 import { silentLogger } from '@/utils/silentLogger'
-import type { GameItemBalanceChange } from '@slkzgm/gigaverse-sdk'
+import type { GameItemBalanceChange } from 'gigaverse-sdk'
 import { useRunHistoryStore } from '@/store/useRunHistoryStore'
 import { Button } from '@/components/ui/button'
 import { RefreshCw, Play, Pause } from 'lucide-react'
