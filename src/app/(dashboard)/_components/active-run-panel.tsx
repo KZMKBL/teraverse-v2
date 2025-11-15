@@ -3,8 +3,8 @@
 
 import { Button } from '@/components/ui/button'
 import type React from 'react'
-import type { DungeonData, LootOption, Player } from '@slkzgm/gigaverse-sdk'
-import { GigaverseActionType } from '@slkzgm/gigaverse-engine'
+import type { DungeonData, LootOption, Player } from 'gigaverse-sdk'
+import { GigaverseActionType } from 'gigaverse-engine'
 import { Shield, Heart, FileText, Scroll, Skull, Star } from 'lucide-react'
 import {
   formatLootType,
