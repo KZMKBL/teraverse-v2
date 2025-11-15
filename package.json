@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,css,md}\"",
-    "postinstall": "npm install --prefix ./node_modules/gigaverse-sdk && npm run build --prefix ./node_modules/gigaverse-sdk && npm install --prefix ./node_modules/gigaverse-engine && npm run build --prefix ./node_modules/gigaverse-engine"
+    "postinstall": "npm install --prefix ./node_modules/gigaverse-sdk && npm install --prefix ./node_modules/gigaverse-engine && npm run build --prefix ./node_modules/gigaverse-sdk && npm run build --prefix ./node_modules/gigaverse-engine"
   },
   "author": "KZMKBL",
   "license": "MIT",
