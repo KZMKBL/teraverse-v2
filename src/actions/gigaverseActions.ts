@@ -13,12 +13,12 @@ import {
   GetUserRomsResponse,
   ClaimRomPayload,
   ClaimRomResponse,
-} from '@slkzgm/gigaverse-sdk'
+} from 'gigaverse-sdk'
 import {
   GetEnergyResponse,
   GetUserMeResponse,
-} from '@slkzgm/gigaverse-sdk/dist/client/types/responses'
-import { GigaverseActionType } from '@slkzgm/gigaverse-engine'
+} from 'gigaverse-sdk/dist/client/types/responses'
+import { GigaverseActionType } from 'gigaverse-engine'
 
 function createClient(token: string) {
   return new GameClient('https://gigaverse.io', token)
