@@ -2,15 +2,15 @@
 'use client'
 
 import { create } from 'zustand'
-import { DungeonData } from '@slkzgm/gigaverse-sdk'
-import type { EnergyParsedData } from '@slkzgm/gigaverse-sdk/dist/client/types/responses'
+import { DungeonData } from 'gigaverse-sdk'
+import type { EnergyParsedData } from 'gigaverse-sdk/dist/client/types/responses'
 import {
   getEnergyAction,
   getDungeonTodayAction,
   getUserRoms,
   claimRom,
 } from '@/actions/gigaverseActions'
-import type { RomEntity } from '@slkzgm/gigaverse-sdk'
+import type { RomEntity } from 'gigaverse-sdk'
 
 type DayProgressMap = Record<number, number>
 
