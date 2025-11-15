@@ -1,6 +1,6 @@
 // path: src/app/(dashboard)/_components/energy-display.tsx
 import { Battery, BatteryCharging } from 'lucide-react'
-import type { EnergyParsedData } from '@slkzgm/gigaverse-sdk'
+import type { EnergyParsedData } from 'gigaverse-sdk'
 
 interface EnergyDisplayProps {
   energyData: EnergyParsedData | null
